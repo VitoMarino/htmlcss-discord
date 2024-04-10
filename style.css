@@ -61,6 +61,16 @@ div.Paddingbutton button:nth-child(2) {
     background-color: white;
     display: flex;
     align-items: center;
+    padding: 5rem;
+}
+
+div.Colonna1 {
+    padding: 3rem;
+}
+
+div.Colonna2 {
+    display: flex;
+    flex-direction: column;
 }
 
 p.Sottotema {
@@ -71,32 +81,54 @@ p.Sottotema {
 .Item2 {
     background-color: rgb(187, 187, 187);
     display: flex;
-    align-items: center;
+    justify-content: space-around;
+    padding: 5rem;
+}
+
+.Colonna3 {
+    display: flex;
+}
+
+.Colonna4 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
 }
 
 .Item3 {
     background-color: white;
     display: flex;
-    align-items: center;
+    justify-content: space-evenly;
+    padding: 8rem;
 }
 
 .Item4 {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding-top: 5rem;
     background-color: rgb(187, 187, 187);
 }
 
-.Itemend {
-    background-color:rgb(187, 187, 187) ;
+.Question {
     display: flex;
-    align-items: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+.Question button {
+    margin-top: 2rem;
 }
 
 footer {
-    
+    color: white;
+    background-color: rgba(0, 0, 0, 0.911);
 }
 
-.navfooter {
+.navclass {
+    display: flex;
+    justify-content: space-around;
+    padding: 10rem;
 }
