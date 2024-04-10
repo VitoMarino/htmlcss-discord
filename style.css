@@ -134,10 +134,13 @@ footer {
 footer p {
     display: flex;
     flex-direction: column-reverse;
+    justify-content: start;
+    padding-top: 1rem;
 }
 
 footer p strong {
     color: rgba(0, 128, 255, 0.831);
+    font-size: 1.5rem;
 }
 
 footer p img {
