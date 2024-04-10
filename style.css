@@ -6,49 +6,50 @@
 
 ul {
     list-style: none;
-    display: flex;
-    align-items: center;
 }
 
 header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     background-color: rgb(0, 98, 255);
     color: white;
-}
-
-#Logo {
+    padding: 2rem;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
 }
 
-.Accedi {
-    margin-left: 20rem;
+header nav ul li {
+    margin: .5rem;
+    display: inline-block;
 }
 
-main {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-nav {
-    margin-top: .5rem;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
+header h2 button {
+    border-radius: 2rem;
+    border: 0;
+    padding: .5rem;
 }
 
 .Mainstart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-image: url(img/jumbo.png);
+    padding: 10rem;
     background-size: cover;
     color: white;
-    padding-bottom: 20rem;
-    padding-right: 20rem;
-    padding-left: 32rem;
+}
+
+main section div button {
+    padding: .5rem;
+    border-radius: 1rem;
+    border: 0;
+}
+
+.Paddingbutton {
+    padding: .5rem;
+}
+
+div.Paddingbutton button:nth-child(2) {
+    color: white;
+    background-color: black;
 }
 
 .Item1 {
@@ -59,9 +60,8 @@ nav {
 
 p.Sottotema {
     font-size: 2rem;
+    padding-bottom: 1rem;
 }
-
-
 
 .Item2 {
     background-color: rgb(187, 187, 187);
