@@ -110,6 +110,10 @@ p.Sottotema {
     background-color: rgb(187, 187, 187);
 }
 
+.Item4 button {
+    background-color: rgba(0, 115, 255, 0.73);
+}
+
 .Question {
     display: flex;
     flex-direction: column;
@@ -131,4 +135,18 @@ footer {
     display: flex;
     justify-content: space-around;
     padding: 10rem;
+}
+
+.divfooter {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+.divfooter button {
+    padding: 0.5rem;
+    border-radius: 2rem;
+    border: 0;
+    color: white;
+    background-color: rgba(0, 115, 255, 0.73);
 }
